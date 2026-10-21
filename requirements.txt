@@ -1,0 +1,16 @@
+# Core numerics
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Mesh generation (structured Q4 mesh of the rectangular design domain)
+gmsh>=4.11
+
+# VTK export of the optimized layout and displacement field (result.vtu)
+vtk>=9.2
+
+# Sparse direct solver (Intel oneAPI MKL PARDISO through PyPardiso).
+# SOLVE.py factorizes COMPLEX symmetric matrices (mtype=6). The PyPI release
+# of pypardiso only accepts real float64 matrices, so the MOPT-UFSC fork with
+# complex support is required. See README.md, section "Linear solver".
+pypardiso @ git+https://github.com/MOPT-UFSC/PyPardiso.git

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+type: software
+title: "Adjoint sensitivity formulation for topology optimization under time-harmonic prescribed displacements (Python implementation)"
+authors:
+  - family-names: Silva
+    given-names: Olavo M.
+    affiliation: "Acoustics and Vibration Laboratory (LVA), Universidade Federal de Santa Catarina, Florianópolis, Brazil"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/<user>/<repo>"
+preferred-citation:
+  type: article
+  title: "Adjoint sensitivity formulation for topology optimization under time-harmonic prescribed displacements"
+  authors:
+    - family-names: Silva
+      given-names: Olavo M.
+    - family-names: Wagner
+      given-names: Caio
+    - family-names: Vargas
+      given-names: Jacson G.
+    - family-names: Lenzi
+      given-names: Arcanjo
+    - family-names: Cardoso
+      given-names: Eduardo L.
+    - family-names: Neves
+      given-names: Miguel M.
+  journal: "Structural and Multidisciplinary Optimization"
+  year: 2026
+  doi: "10.1007/s00158-XXX-XXXXX-X"
